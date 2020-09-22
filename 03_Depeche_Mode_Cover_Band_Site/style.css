@@ -1,0 +1,85 @@
+@font-face { 
+    font-family: 'ultra';
+    src: url('font/ultra.ttf');
+    font-family: 'delta';
+    src: url('font/Delta_Machine_3.ttf');
+}
+
+
+body {
+   /*display: flex; */
+   background-color: wheat;
+   flex-wrap: wrap;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.heading {
+    align-content: center;
+    flex-direction: initial;
+}
+
+h1 {
+    
+    font-family: 'delta';
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-family: 'Delta';
+    font-size: 20px;
+}
+
+h3 
+{
+    display: flex;
+    font-size: 18px;
+    margin: 50px 0px 5px 0px;
+    justify-content: center;
+    text-shadow: maroon;
+}
+
+h4 {
+    text-shadow: maroon;
+    font-family: 'Delta';
+}
+
+h5 {
+    font-style: italic;
+}
+
+
+
+section {
+    justify-content: flex-end;
+}
+
+img {
+    margin: 10px;
+
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.box-title {
+    text-align: center;
+}
+
+.tour-chart {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display:flex;
+    flex-direction: column;
+}
+
+
